@@ -1,0 +1,6 @@
+- job:
+    name: test-katello
+    project-type: workflow
+    dsl:
+      !include-raw:
+        - pipelines/tests/testKatello.groovy

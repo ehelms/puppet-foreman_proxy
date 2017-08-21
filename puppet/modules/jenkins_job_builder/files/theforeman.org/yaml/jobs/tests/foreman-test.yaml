@@ -1,0 +1,6 @@
+- job:
+    name: test-foreman
+    project-type: workflow
+    dsl:
+      !include-raw:
+        - pipelines/tests/testForeman.groovy
